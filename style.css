@@ -1,0 +1,136 @@
+
+
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: rgb(46, 57, 57);
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: rgba(244, 247, 238, 0.807);
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left div {
+    color:antiquewhite;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 39%;
+    margin: 33px auto;
+    /* border: 2px solid green; */
+}
+
+header{
+    background-color: black;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    
+}
+
+
+
+.navbar {
+    display: inline-block;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 10px ;
+    padding-right: 25px;
+
+}
+
+.navbar li a:hover
+ {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: rgb(177, 110, 110);
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(217, 186, 186);
+}
+
+.container {
+    position:absolute;
+    left: 298px;
+    border: 2px solid rgb(18, 16, 16);
+    margin: 110px 80px;
+    padding: 100px;
+    background-color:rgba(240, 224, 224, 0.748);
+    width: 33%;
+    border-radius: 28px;
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 503px;
+    padding: 7px;
+    border: 2px solid rgb(28, 21, 21);
+    margin: 5px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 50px; /* Adjust the height as needed */
+    line-height: 30px; /* Adjust line height to vertically center content */
+}

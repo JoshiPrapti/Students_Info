@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <title>Website</title>
+</head>
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="images/Georgian_College_logo.svg.png" alt="logo">
+            
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Student Services</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Contact us</button>
+            
+        </div>
+        
+    </header>
+    <div class="container">
+        <h1>Student Information</h1>
+        <form action="students.php" method="POST">
+            <div class="form-group">
+                <input type="text" name="studentName" placeholder="Enter Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="studentID" placeholder="Enter Student ID" required>
+            </div>
+            <div class="form-group">
+                <input type="number" name="finalGrade" placeholder="Enter Grade" required>
+            </div>
+            
+            <button class="btn">Login</button>
+        </form>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2024 My Database. All rights reserved.</p>
+    </footer>
+
+    
+
+</body>
+</html>
